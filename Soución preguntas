@@ -1,0 +1,14 @@
+1. ¿Qué estructura de datos elegiste y por qué?
+
+Elegí un HashSet<String> porque:
+No permite cursos repetidos, lo que evita la necesidad de comprobar manualmente duplicados.
+Las operaciones de inserción, eliminación y búsqueda tienen un tiempo promedio O(1), lo que lo hace muy eficiente.
+Es fácil convertirlo a un TreeSet para mostrar los cursos en orden alfabético.
+
+2. ¿Cómo aseguras que las operaciones con la lista de cursos son eficientes?
+
+Uso de HashSet para que:
+Añadir (add): O(1) promedio.
+Eliminar (remove): O(1) promedio.
+Buscar (contains): O(1) promedio.
+Solo convierto a TreeSet cuando se necesita mostrar los cursos, evitando ordenamientos innecesarios.
